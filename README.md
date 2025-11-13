@@ -38,48 +38,13 @@
 │       └── change_timestamp.json
 └── (seus arquivos do projeto)
 ```
-
----
-
-## 🔧 Instalação
-
-### ✔ Pré-requisitos
-- Python **3.6+**
-- Pip instalado
-
----
-
-## 🚀 Instalação Rápida
-
-```powershell
-# Navegue até a pasta do RPL
-cd caminho/para/o/rpl.py
-
-# Execute o instalador
-python rpl.py --install
-```
-
----
-
-## 🛠 Instalação Manual
-
-```powershell
-# Instalar dependência principal
-pip install watchdog
-
-# Criar alias no PowerShell (adicione ao seu perfil)
-function rpl { python "caminho/completo/para/rpl.py" $args }
-```
-
----
-
 ## 📘 Como Usar
 
 ### 🔹 Inicializar Projeto
 
 ```powershell
 # Dentro da pasta do seu projeto
-rpl --init
+python3 rpl.py --init
 ```
 
 ---
@@ -88,10 +53,10 @@ rpl --init
 
 ```powershell
 # Criar snapshot versão 1.0.0
-rpl --create 1.0.0
+python3 rpl.py --create 1.0.0
 
 # Criar snapshot com alias
-rpl -c 1.0.1
+python3 rpl.py -c 1.0.1
 ```
 
 ---
@@ -99,7 +64,7 @@ rpl -c 1.0.1
 ### 🔹 Listar Snapshots
 
 ```powershell
-rpl --list
+python3 rpl.py --list
 ```
 
 ---
@@ -108,10 +73,10 @@ rpl --list
 
 ```powershell
 # Iniciar monitoramento automático
-rpl --auto-save
+python3 rpl.py --auto-save
 
 # Parar monitoramento
-rpl --stop
+python3 rpl.py --stop
 ```
 
 ---
