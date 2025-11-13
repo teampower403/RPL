@@ -38,6 +38,8 @@
 │       └── change_timestamp.json
 └── (seus arquivos do projeto)
 ```
+## 🛠️ como instalar
+no momento o comando install está com problema, vimos isso de última hora então aguarde até isso ser corrigido, façam pull-requests para ajudarmos nessa tarefa.
 ## 📘 Como Usar
 
 ### 🔹 Inicializar Projeto
